@@ -1,0 +1,70 @@
+{
+  "dataset_name": "SatQuery-Sample-VQA",
+  "description": "Simulated Remote Sensing Visual Question Answering sample data.",
+  "samples": [
+    {
+      "id": "sample_001",
+      "image_name": "forest_scene.png",
+      "modality": "Optical",
+      "source": "Sentinel-2",
+      "qa_pairs": [
+        {
+          "question": "What type of land cover is visible?",
+          "answer": "The image is dominated by dense vegetation and forest canopy cover.",
+          "category": "Land Cover"
+        },
+        {
+          "question": "Are there any structures present in this scene?",
+          "answer": "No prominent built-up areas or city structures are visible in the image.",
+          "category": "Count"
+        }
+      ],
+      "grounding": {
+        "vegetation": [
+          [
+            50,
+            50,
+            250,
+            250
+          ]
+        ]
+      }
+    },
+    {
+      "id": "sample_002",
+      "image_name": "lake_suburb.png",
+      "modality": "Optical",
+      "source": "Sentinel-2",
+      "qa_pairs": [
+        {
+          "question": "Is there a river or water body present?",
+          "answer": "Yes, a water body is visible covering a section of the image.",
+          "category": "Presence"
+        },
+        {
+          "question": "What elements are visible in this scene?",
+          "answer": "The image shows a large water body with neighboring residential houses and urban roads.",
+          "category": "Land Cover"
+        }
+      ],
+      "grounding": {
+        "water body": [
+          [
+            0,
+            0,
+            300,
+            300
+          ]
+        ],
+        "built-up structure": [
+          [
+            10,
+            10,
+            80,
+            80
+          ]
+        ]
+      }
+    }
+  ]
+}

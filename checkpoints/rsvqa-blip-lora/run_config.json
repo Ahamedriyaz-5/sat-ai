@@ -1,0 +1,12 @@
+{
+  "train_jsonl": "datasets/rsvqa/train.jsonl",
+  "output_dir": "checkpoints/rsvqa-blip-lora-trial-8e-5e5-b1",
+  "base_model": "Salesforce/blip-vqa-base",
+  "seed": 42,
+  "epochs": 8,
+  "batch_size": 1,
+  "learning_rate": 5e-05,
+  "val_ratio": 0.2,
+  "max_new_tokens": 16,
+  "best_val_accuracy": 0.5
+}

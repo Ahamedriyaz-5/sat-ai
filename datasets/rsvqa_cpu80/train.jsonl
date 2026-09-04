@@ -1,0 +1,80 @@
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_0.png", "question": "Is it a rural or an urban area", "answer": "rural"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_1.png", "question": "What is the number of commercial buildings?", "answer": "5"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_2.png", "question": "How many farmlands are there?", "answer": "62"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_3.png", "question": "What is the number of buildings?", "answer": "104"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_4.png", "question": "How many small buildings are there?", "answer": "100"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_5.png", "question": "Are there less farmlands than water areas?", "answer": "no"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_6.png", "question": "What is the number of residential buildings next to a  farmland in the image?", "answer": "98"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_7.png", "question": "Is the number of commercial buildings equal to the number of grass areas?", "answer": "no"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_8.png", "question": "Is there a circular water area?", "answer": "no"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_9.png", "question": "Are there less forests than commercial buildings?", "answer": "no"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_10.png", "question": "Is the number of water areas equal to the number of large roads?", "answer": "no"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_11.png", "question": "What is the amount of medium water areas?", "answer": "4"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_12.png", "question": "Is a large building present?", "answer": "no"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_13.png", "question": "What is the number of water areas on the left of a  commercial building?", "answer": "10"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_14.png", "question": "Is a circular building present in the image?", "answer": "no"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_15.png", "question": "Are there more water areas than residential buildings in the image?", "answer": "no"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_16.png", "question": "Is the number of circular residential buildings equal to the number of commercial buildings?", "answer": "no"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_17.png", "question": "Is the number of buildings equal to the number of forests?", "answer": "no"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_18.png", "question": "What is the amount of rectangular buildings in the image?", "answer": "65"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_19.png", "question": "What is the amount of medium farmlands?", "answer": "0"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_20.png", "question": "What is the number of medium commercial buildings?", "answer": "1"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_21.png", "question": "Is there a water area?", "answer": "yes"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_22.png", "question": "Is there a rectangular road?", "answer": "no"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_23.png", "question": "What is the amount of water areas?", "answer": "23"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_24.png", "question": "Are there less water areas than residential buildings?", "answer": "yes"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_25.png", "question": "What is the amount of roads on the right of a  water area?", "answer": "61"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_26.png", "question": "What is the amount of medium water areas?", "answer": "7"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_27.png", "question": "Are there less residential buildings than forests?", "answer": "no"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_28.png", "question": "How many circular residential buildings are there?", "answer": "1"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_29.png", "question": "Are there less farmlands than water areas?", "answer": "no"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_30.png", "question": "Are there more grass areas than water areas?", "answer": "yes"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_31.png", "question": "What is the amount of square water areas?", "answer": "0"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_32.png", "question": "Are there less roads than residential buildings?", "answer": "yes"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_33.png", "question": "Is there a forest?", "answer": "yes"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_34.png", "question": "Are there less buildings than water areas?", "answer": "no"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_35.png", "question": "What is the number of roads on the right of a  commercial building?", "answer": "20"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_36.png", "question": "Is the number of residential buildings equal to the number of grass areas?", "answer": "no"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_37.png", "question": "How many residential areas are there?", "answer": "8"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_38.png", "question": "How many medium grass areas are there?", "answer": "23"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_39.png", "question": "What is the number of square grass areas?", "answer": "0"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_40.png", "question": "What is the number of small water areas in the image?", "answer": "7"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_41.png", "question": "Is it a rural or an urban area", "answer": "rural"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_42.png", "question": "Are there more water areas than commercial buildings?", "answer": "yes"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_43.png", "question": "What is the amount of buildings?", "answer": "174"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_44.png", "question": "What is the number of commercial buildings?", "answer": "1"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_45.png", "question": "Is there a circular water area in the image?", "answer": "yes"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_46.png", "question": "What is the amount of residential buildings in the image?", "answer": "172"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_47.png", "question": "Is the number of buildings equal to the number of farmlands?", "answer": "no"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_48.png", "question": "Are there more roads than commercial buildings?", "answer": "yes"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_49.png", "question": "Is a square road present in the image?", "answer": "no"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_50.png", "question": "Are there more circular buildings than square roads?", "answer": "yes"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_51.png", "question": "Are there less commercial buildings than roads?", "answer": "yes"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_52.png", "question": "Are there more square forests than residential buildings?", "answer": "no"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_53.png", "question": "Are there more grass areas than roads?", "answer": "yes"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_54.png", "question": "Is there a medium grass area?", "answer": "yes"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_55.png", "question": "What is the number of square residential buildings?", "answer": "5"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_56.png", "question": "Is the number of residential buildings equal to the number of roads in the image?", "answer": "no"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_57.png", "question": "Is the number of water areas equal to the number of roads?", "answer": "no"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_58.png", "question": "Is the number of roads equal to the number of small grass areas?", "answer": "no"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_59.png", "question": "Are there more roads than forests?", "answer": "no"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_60.png", "question": "Are there less buildings than roads on the left of a  residential building?", "answer": "no"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_61.png", "question": "Is there a forest?", "answer": "yes"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_62.png", "question": "How many residential buildings are there?", "answer": "53"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_63.png", "question": "Are there less residential buildings than forests?", "answer": "yes"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_64.png", "question": "Are there less buildings than buildings on the right of a  road?", "answer": "no"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_65.png", "question": "What is the number of grass areas?", "answer": "92"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_66.png", "question": "Is the number of grass areas equal to the number of roads in the image?", "answer": "no"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_67.png", "question": "Is the number of residential buildings equal to the number of roads?", "answer": "no"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_68.png", "question": "What is the number of rectangular roads?", "answer": "0"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_69.png", "question": "Is the number of roads equal to the number of buildings in the image?", "answer": "no"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_70.png", "question": "Is a circular building present?", "answer": "no"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_71.png", "question": "Are there more commercial buildings than grass areas?", "answer": "no"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_72.png", "question": "How many square buildings are there?", "answer": "0"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_73.png", "question": "What is the number of medium water areas?", "answer": "5"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_74.png", "question": "What is the amount of heaths?", "answer": "9"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_75.png", "question": "Are there more roads than commercial buildings in the image?", "answer": "yes"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_76.png", "question": "How many small roads are there in the image?", "answer": "38"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_77.png", "question": "Is the number of small residential buildings equal to the number of roads?", "answer": "no"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_78.png", "question": "What is the number of rectangular grass areas?", "answer": "26"}
+{"image": "C:\\Users\\tanus\\Downloads\\SatQuery-SIH\\datasets\\rsvqa_cpu80\\rsvqa_sample_79.png", "question": "What is the amount of square commercial buildings?", "answer": "0"}
