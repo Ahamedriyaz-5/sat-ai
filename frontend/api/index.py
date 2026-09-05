@@ -1,8 +1,11 @@
 import os
 import sys
 
-# Ensure project root is in sys.path
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+# Add both project root and frontend directory to sys.path
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.dirname(os.path.dirname(CURRENT_DIR))
+sys.path.insert(0, PROJECT_ROOT)
+sys.path.insert(0, os.path.dirname(CURRENT_DIR))
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -11,7 +14,6 @@ try:
     from backend.api.endpoints.analyze import router as analyze_router
     from backend.api.endpoints.copernicus import router as copernicus_router
     HAS_BACKEND = True
-    BACKEND_ERR = None
 except Exception as e:
     HAS_BACKEND = False
     BACKEND_ERR = str(e)
@@ -43,6 +45,6 @@ async def health_check():
         "status": "healthy",
         "service": "SatQuery AI Serverless",
         "has_backend": HAS_BACKEND,
-        "backend_err": BACKEND_ERR,
+        "backend_err": None if HAS_BACKEND else BACKEND_ERR,
         "gemini_configured": bool(os.environ.get("GEMINI_API_KEY")),
     }
