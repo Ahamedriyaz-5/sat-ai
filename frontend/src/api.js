@@ -1,4 +1,4 @@
-const API = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000/api/v1';
+const API = import.meta.env.VITE_API_URL || '/api/v1';
 
 export async function login(username, password) {
   const response = await fetch(`${API}/auth/login`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ username, password }) });

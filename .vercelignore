@@ -1,11 +1,11 @@
-/backend/
-/requirements.txt
+/checkpoints/
+/datasets/
 /experiments/
 /notebooks/
-/datasets/
 /tests/
 /sample_images/
-/checkpoints/
 /Docs/
+/backend/models/
+/backend/agent/
 /generate_project_pdf.py
 /SatQuery_AI_Project_Documentation.pdf
