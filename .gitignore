@@ -3,7 +3,7 @@
 __pycache__/
 *.py[cod]
 uploads/
-frontend/node_modules/
+node_modules/
 frontend/dist/
 .ipynb_checkpoints/
 .venv-gpu/
