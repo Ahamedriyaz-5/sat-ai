@@ -1,23 +1,13 @@
 import os
 import sys
 
-# Search up directory hierarchy for 'backend' module root
-curr = os.path.dirname(os.path.abspath(__file__))
-found_root = None
-for _ in range(5):
-    if os.path.exists(os.path.join(curr, "backend")):
-        found_root = curr
-        if curr not in sys.path:
-            sys.path.insert(0, curr)
-        break
-    parent = os.path.dirname(curr)
-    if parent == curr:
-        break
-    curr = parent
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
+FRONTEND_DIR = os.path.dirname(CURRENT_DIR)
+PROJECT_ROOT = os.path.dirname(FRONTEND_DIR)
 
-if not found_root and os.path.exists("/var/task"):
-    if "/var/task" not in sys.path:
-        sys.path.insert(0, "/var/task")
+for p in [PROJECT_ROOT, FRONTEND_DIR, CURRENT_DIR]:
+    if p not in sys.path:
+        sys.path.insert(0, p)
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -54,20 +44,10 @@ if HAS_BACKEND:
 @app.get("/api/v1")
 @app.get("/api/health")
 async def health_check():
-    task_contents = []
-    if os.path.exists("/var/task"):
-        try:
-            task_contents = os.listdir("/var/task")
-        except Exception:
-            pass
-
     return {
         "status": "healthy",
         "service": "SatQuery AI Serverless",
         "has_backend": HAS_BACKEND,
         "backend_err": BACKEND_ERR,
-        "found_root": found_root,
-        "sys_path": sys.path[:5],
-        "task_contents": task_contents,
         "gemini_configured": bool(os.environ.get("GEMINI_API_KEY")),
     }
