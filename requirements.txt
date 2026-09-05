@@ -5,19 +5,5 @@ pydantic>=2.0
 pydantic-settings>=2.0
 pillow>=9.5.0
 numpy>=1.24.0
-torch>=2.0.0
-transformers>=4.30.0
-opencv-python-headless>=4.7.0
-langgraph>=0.0.10
-langchain-core>=0.1.0
-rasterio>=1.3.0
-# gdal >=3.6.0      # Optional, system-level dependency required by rasterio
-pytest>=7.3.0
 requests>=2.31.0
-# Optional Phase 5 training dependencies (install in a GPU/Colab environment)
-peft>=0.10.0
-accelerate>=0.30.0
-datasets>=2.19.0
-# Required by the BIFOLD BigEarthNet v2.0 ConvMixer integration. The official
-# reBEN repository is additionally required on PYTHONPATH for its model class.
-configilm
+python-dotenv>=1.0.0
