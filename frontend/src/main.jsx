@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { createRoot } from 'react-dom/client';
-import { MapContainer, TileLayer, Marker, Popup, ZoomControl, Rectangle, useMap, useMapEvents } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker, Popup, ZoomControl, Rectangle, ImageOverlay, useMap, useMapEvents } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import './styles.css';
@@ -327,6 +327,7 @@ function WorldMap({
   country,
   status: locStatus,
   bbox,
+  imageUrl,
   targetName,
   featureType,
   onLocationChange,
@@ -496,6 +497,16 @@ function WorldMap({
         <MapRecenterHelper lat={lat} lon={lon} />
         <MapClickHandler onMapClick={onLocationChange} />
 
+        {/* Satellite image overlay — shown when bbox + image are both available */}
+        {hasBbox && imageUrl && (
+          <ImageOverlay
+            url={imageUrl}
+            bounds={[[bbox[1], bbox[0]], [bbox[3], bbox[2]]]}
+            opacity={0.75}
+            zIndex={10}
+          />
+        )}
+
         {hasBbox && (
           <Rectangle
             bounds={[[bbox[1], bbox[0]], [bbox[3], bbox[2]]]}
@@ -504,7 +515,7 @@ function WorldMap({
               weight: 2,
               dashArray: '5, 5',
               fillColor: '#ef7657',
-              fillOpacity: 0.18,
+              fillOpacity: 0.0,
             }}
           >
             <Popup>
@@ -794,6 +805,35 @@ function SatQueryApp() {
       clearTimeout(timer);
       if (e.name === 'AbortError') {
         setError('Analysis request timed out after 45 seconds. Please try again.');
+      } else if (e.message && (e.message.includes('Failed to fetch') || e.message.includes('NetworkError'))) {
+        // Check if a pre-generated sample result is available (for Vercel deployment without local backend)
+        const sampleMap = {
+          'sample_sar_radar.png': '/sample_images/sample_sar_radar_result.json',
+          'paris_satellite_sentinel2.png': '/sample_images/sample_paris_satellite_result.json',
+          'sample_paris_satellite.png': '/sample_images/sample_paris_satellite_result.json',
+          'tokyo_bay_satellite.png': '/sample_images/sample_tokyo_satellite_result.json',
+          'sample_tokyo_satellite.png': '/sample_images/sample_tokyo_satellite_result.json',
+        };
+        const sampleJsonUrl = file ? sampleMap[file.name] : null;
+        if (sampleJsonUrl) {
+          try {
+            const demoResp = await fetch(sampleJsonUrl);
+            if (demoResp.ok) {
+              const demoData = await demoResp.json();
+              setResult(demoData);
+              setQaList([]);
+              setCurrentStep(2);
+              return;
+            }
+          } catch (demoErr) {
+            console.warn('Demo fallback fetch failed:', demoErr);
+          }
+        }
+        if (window.location.protocol === 'https:' && API.includes('127.0.0.1')) {
+          setError('Backend is running on localhost (HTTP) while Vercel is served over HTTPS. Browsers block HTTPS sites from fetching local HTTP servers (Mixed Content). To run custom image analysis, open the app locally at http://127.0.0.1:5173/ or deploy the backend to a cloud HTTPS URL.');
+        } else {
+          setError(`Could not connect to the backend server at ${API}. Make sure the FastAPI backend is running.`);
+        }
       } else {
         setError(e.message || 'Analysis could not be completed.');
       }
@@ -1558,6 +1598,7 @@ ${trace.length > 0 ? `
                   country={result.location.country}
                   status={result.location.status}
                   bbox={bbox}
+                  imageUrl={displayImg}
                   targetName={result.location.target_name}
                   featureType={result.location.feature_type}
                   onLocationChange={handleLocationPinpoint}

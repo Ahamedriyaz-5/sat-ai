@@ -235,8 +235,8 @@ class RemoteSensingVQAModel(BaseSpecialistModel):
             try:
                 import cv2
                 structure_mask = (gray_mask.astype(np.uint8) * 255)
-                components, _, _, _ = cv2.connectedComponentsWithStats(structure_mask, 8)
-                object_count = max(0, sum(1 for area in _[:, cv2.CC_STAT_AREA][1:] if area >= max(8, total_pixels * 0.002)))
+                components, labels, stats, centroids = cv2.connectedComponentsWithStats(structure_mask, 8)
+                object_count = max(0, sum(1 for area in stats[:, cv2.CC_STAT_AREA][1:] if area >= max(8, total_pixels * 0.002)))
             except Exception:
                 object_count = max(0, int(gray_ratio * 20))
         except Exception as e:
