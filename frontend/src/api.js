@@ -1,4 +1,6 @@
-const API = import.meta.env.VITE_API_URL || '/api/v1';
+const API = (typeof window !== 'undefined' && window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1')
+  ? '/api/v1'
+  : (import.meta.env.VITE_API_URL || '/api/v1');
 
 export async function login(username, password) {
   const response = await fetch(`${API}/auth/login`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ username, password }) });

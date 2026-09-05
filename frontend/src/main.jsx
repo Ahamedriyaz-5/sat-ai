@@ -21,7 +21,10 @@ const customIcon = L.divIcon({
   popupAnchor: [0, -20],
 });
 
-const API = import.meta.env.VITE_API_URL || '/api/v1';
+// When served on Vercel or any remote domain, ALWAYS use relative '/api/v1' to avoid mixed-content blocking
+const API = (typeof window !== 'undefined' && window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1')
+  ? '/api/v1'
+  : (import.meta.env.VITE_API_URL || '/api/v1');
 
 const STEPS = [
   { id: 1, label: 'Upload & Ingest', icon: '📤' },
